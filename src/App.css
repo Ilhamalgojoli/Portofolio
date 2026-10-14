@@ -5,16 +5,16 @@
   background-color: rgb(24, 23, 23);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  user-select: none;
 }
 
 html {
+  /* Smoothly scroll to in-page anchor targets, such as the navbar sections. */
   scroll-behavior: smooth;
-  scrollbar-width: none;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 4px;
-  overflow-x: hidden;
+  scrollbar-width: none;
 }
