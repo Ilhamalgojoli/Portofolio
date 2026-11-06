@@ -2,7 +2,7 @@ import SpriteAnimation, { type SpriteFrameOffset } from './SpriteAnimation';
 import useScrollReveal from '../hooks/useScrollReveal';
 
 const IDLE_FRAME_URLS = Object.entries(
-    import.meta.glob<string>('../assets/Animasi/Idle/*.png', {
+    import.meta.glob<string>('../assets/Animasi/Idle/*.webp', {
         eager: true,
         query: '?url',
         import: 'default',
